@@ -1,0 +1,31 @@
+{
+  "ruff.lint.select": [
+    "E",
+    "W",
+    "D",
+    "PL",
+    "B",
+    "BLE",
+    "F",
+    "I"
+  ],
+  "ruff.exclude": [
+    ".venv",
+    "venv",
+    "build",
+    "dist",
+    ".egg-info"
+  ],
+  "ruff.configuration": {
+    "format": {
+      "quote-style": "single"
+    },
+    "lint": {
+      "pydocstyle": {
+        "convention": "numpy"
+      }
+    }
+  },
+  "ruff.lineLength": 79,
+  "ruff.lint.preview": true
+}
